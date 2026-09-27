@@ -1,6 +1,6 @@
 // Predict and explain first...
 
-// =============> write your prediction here
+// =============> write your prediction here : In step six we need to write return type and output become 320.
 
 function multiply(a, b) {
   console.log(a * b);
