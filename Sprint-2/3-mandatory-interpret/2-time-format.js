@@ -37,7 +37,7 @@ console.log(result);
 /* i try both decimal both terminal is not showing the error type looks prefect */
 /*[Running] node "c:\Users\Asus\Desktop\code your future\Module-Onboarding\Module-JavaScript-Fundamentals\Sprint-2\Sprint-2\3-mandatory-interpret\2-time-format.js"
 2:26:24
-
+/* In this case 60% is the remaining second after take out all minutes there has remain second is 24 */
 [Done] exited with code=0 in 1.932 seconds
 
 [Running] node "c:\Users\Asus\Desktop\code your future\Module-Onboarding\Module-JavaScript-Fundamentals\Sprint-2\Sprint-2\3-mandatory-interpret\2-time-format.js"
