@@ -6,7 +6,7 @@ const penceStringWithoutTrailingP = penceString.substring(
 );
 // remove the p from the "399p" and make "399"
 const paddedPenceNumberString = penceStringWithoutTrailingP.padStart(3, "0");
-//padStart() add characters to the starting of the string and provide 3 long characters.
+// padStart(3, "0") adds "0" at the start until the string is 3 characters long
 //Because we have to convert pound and pence.
 const pounds = paddedPenceNumberString.substring(
   0,
