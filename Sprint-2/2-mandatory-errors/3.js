@@ -10,5 +10,5 @@ console.log (last4Digits);
 // Then try updating the expression last4Digits is assigned to, in order to get the correct value
 //Card number is a number not a string so it will throw typeerror.
 // i did not think slice method can not run in number method so that i change it in string
-// when i put capital letter ReferenceError: string is not defined so that nothing last4Digits not showed
-//in the terminal  String is the function but string is the normal text.
+// Small s string is not function defined so that it showed the type ReferenceError.
+//When i put actual capital S String function defined and print the result(output).
