@@ -1,4 +1,8 @@
-const movieLength = 8784; 
+// const movieLength = 8784;
+// const movieLength = -1;  
+// const movieLength = 8784.5; 
+// const movieLength = 'abc';
+const movieLength = 3605;
 const remainingSeconds = movieLength % 60;
 const totalMinutes = (movieLength - remainingSeconds) / 60;
 
@@ -30,10 +34,9 @@ console.log(result);
     We can change this name as movieTime*/
 
 // f) Try experimenting with different values of movieLength. Will this code work for all values of movieLength? Explain your answer
-/* In this section we can only use the positive natural numbers  but if we put numbers that divide by 60 without a remainder get the exact time like 10, 20 50 */
-/*"Percent (%) is a way to describe the full amount of anything by imagining it split into 100 equal sections.*/
-/*we take out the odd seconds before converting to minutes so that when we divide by 60 we can get the exact whole number instead of messy decimal so that*/
-/* i try both decimal both terminal is not showing the error type looks prefect */
-/*[Running] node "c:\Users\Asus\Desktop\code your future\Module-Onboarding\Module-JavaScript-Fundamentals\Sprint-2\Sprint-2\3-mandatory-interpret\2-time-format.js"
-2:26:24
-/* In this case 60% is the remaining second after take out all minutes there has remain second is 24 */
+/* No, it's does not work for all values. It works correctly for any non-negative whole number of seconds.
+1. Negative Number: -1 gives the answer 0:0:-1 which is not the valid time because -1 is not the time formate.
+due to the divide the dividend keeps the negatives seconds.
+2. Decimals: Move length: 8784.5 gives the answer 2:26:24.5. So, seconds are not a whole numbers in real world.
+3. Not a numbers: move length: 'abc'.. When we put the not numbers then they gives the NaN:NaN:NaN(Not a Number) answer.
+4. also when we divide the numbers like 3605 its shows the answer  */
