@@ -15,7 +15,7 @@
 // console.log(decimalNumber);
 
 // =============> write your explanation here
-// while running this function is shows typeerror because decimal number variable is declared two times.
+// while running this function is shows SyntaxError because decimal number variable is declared two times which JavaScript does not allow.
 // and in step 15 we need call function name not decimal number.
 // Finally, correct the code to fix the problem
 // =============> write your new code here
