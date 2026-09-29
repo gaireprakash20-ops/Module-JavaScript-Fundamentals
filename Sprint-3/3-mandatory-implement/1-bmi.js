@@ -20,5 +20,5 @@ function calculateBMI(weight, height) {
   const bmi = weight/squared_height;
   return bmi.toFixed(1);
 }
-console.log(`The BMi of the person is ${calculateBMI(70,2.99)}`);
-//  The output of the program is 'The BMi of the person is 7.8'.
+console.log(`The BMi of the person is ${calculateBMI(70,1.73)}`);
+//  The output of the program is 'The BMi of the person is 23.4'.
