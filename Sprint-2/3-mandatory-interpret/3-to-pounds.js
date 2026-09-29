@@ -12,7 +12,7 @@ const pounds = paddedPenceNumberString.substring(
   0,
   paddedPenceNumberString.length - 2
 );
-// we take out the 2 character and store the remaining part of the string as the pound.
+// In this we store the first index number into pound and remaining other should be removed. for example, 399 we stored the 3 into Pounds variables and remaining 99 should be removed because the substring start from 0 index to length-2.
 
 const pence = paddedPenceNumberString
   .substring(paddedPenceNumberString.length - 2)
