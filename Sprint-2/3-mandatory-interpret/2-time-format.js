@@ -1,8 +1,8 @@
-// const movieLength = 8784;
+const movieLength = 8784;
 // const movieLength = -1;  
 // const movieLength = 8784.5; 
 // const movieLength = 'abc';
-const movieLength = 3605;
+// const movieLength = 3605;
 const remainingSeconds = movieLength % 60;
 const totalMinutes = (movieLength - remainingSeconds) / 60;
 
@@ -39,4 +39,6 @@ console.log(result);
 due to the divide the dividend keeps the negatives seconds.
 2. Decimals: Move length: 8784.5 gives the answer 2:26:24.5. So, seconds are not a whole numbers in real world.
 3. Not a numbers: move length: 'abc'.. When we put the not numbers then they gives the NaN:NaN:NaN(Not a Number) answer.
-4. also when we divide the numbers like 3605 its shows the answer  */
+4. also when we divide the numbers like 3605 its shows the answer 1:0:5 but it needs to shows 1:00:05. Its the problem of formating.
+Values that divide by 60 with no remainder (like 120) also work; they just give 0 seconds (0:2:0).
+for normal values like 8784 it's shows the correct answer. Its work normally for normal values but shows Nan and formating error for others values.  */
