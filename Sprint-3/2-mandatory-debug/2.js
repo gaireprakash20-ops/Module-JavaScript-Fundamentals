@@ -26,8 +26,6 @@
 // In this variable num is constant and there is no any declaration in function name. Due to this reasons result always be 3.
 // Finally, correct the code to fix the problem
 // =============> write your new code here
-// const num = 103;
-
 function getLastDigit(num) {
   return num.toString().slice(-1);
 }
