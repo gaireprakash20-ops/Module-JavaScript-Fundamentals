@@ -24,7 +24,8 @@ console.log(result);
 
 // c) Using documentation, explain what the expression movieLength % 60 represents
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
-/*The remainder (%) operator returns the remainder left over when one operand is divided by a second operand. It always takes the sign of the dividend*/
+/*The remainder (%) operator returns the remainder left over when one operand is divided by a second operand. movieLength % 60 represent that when movieLength is divided by 60 it return the remainder.
+It's mainly represent the remainingSeconds.*/
 
 // d) Interpret line 4, what does the expression assigned to totalMinutes mean?
 /* This expression convert movies time second into minutes dividend by 60 second*/
