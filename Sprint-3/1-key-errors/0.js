@@ -1,5 +1,3 @@
-/** @format */
-
 // Predict and explain first...
 //  =============> write your prediction here :there is a syntax error because string is decleared two tiimes.
 
