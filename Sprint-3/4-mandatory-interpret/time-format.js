@@ -1,20 +1,20 @@
 function pad(num) {
-  let numString = num.toString();
-  while (numString.length < 2) {
-    numString = "0" + numString;
-  }
-  return numString;
+	let numString = num.toString();
+	while (numString.length < 2) {
+		numString = '0' + numString;
+	}
+	return numString;
 }
 
 function formatTimeDisplay(seconds) {
-  const remainingSeconds = seconds % 60;
-  const totalMinutes = (seconds - remainingSeconds) / 60;
-  const remainingMinutes = totalMinutes % 60;
-  const totalHours = (totalMinutes - remainingMinutes) / 60;
+	const remainingSeconds = seconds % 60;
+	const totalMinutes = (seconds - remainingSeconds) / 60;
+	const remainingMinutes = totalMinutes % 60;
+	const totalHours = (totalMinutes - remainingMinutes) / 60;
 
-  return `${pad(totalHours)}:${pad(remainingMinutes)}:${pad(remainingSeconds)}`;
+	return `${pad(totalHours)}:${pad(remainingMinutes)}:${pad(remainingSeconds)}`;
 }
-console.log(formatTimeDisplay(61))
+console.log(formatTimeDisplay(61));
 
 // You will need to play computer with this example - use the Python Visualiser https://pythontutor.com/visualize.html#mode=edit
 // to help you answer these questions
