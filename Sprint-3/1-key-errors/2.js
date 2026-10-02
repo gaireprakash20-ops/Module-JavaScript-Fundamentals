@@ -1,4 +1,3 @@
-
 // Predict and explain first BEFORE you run any code...
 // It show the reference error cause function not assigned the variable so that, code is stuck.
 
@@ -20,11 +19,8 @@
 
 // =============> write your new code here
 function square(num) {
-    return num * num;
+	return num * num;
 }
 
 console.log(square(3));
 // The output of this programme is 9.
-
-
-
